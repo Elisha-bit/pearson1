@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Header and Navigation */
+header {
+    background-color: white;
+    color: #140909;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: #34b679;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+.logo h3 {
+    font-size: 30px;
+}
+.logo h3 span {
+    color: #34b679;
+}
+
+.sign a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-left: 22px;
+}
+.sign {
+    background: linear-gradient(130deg, #34b679, #19e977);
+    width: 120px;
+    height: 25px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+}
+main {
+    padding-top: 150px;
+    position: relative;
+}
+main .tourist-topic  {
+    padding-bottom: 100px;
+    padding-left: 400px;
+
+}
+main .tourist-topic h1 {
+    color: black;
+    font-size: 50px;
+}
+main .tourist-topic h1 span {
+    color: #19e977;
+}
+main .tourist-cont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.753);
+    margin-bottom: 200px;
+}
+main .tourist-cont .tour-text {
+    width: 90%;
+    height: 90%;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+ main .tourist-cont .tour-text p {
+    font-size: 25px;
+    font-weight: 600;    
+} 
+main .tourist-cont .tour-img {
+    width: 20%;
+    padding: 20px;
+    margin-top: 20px;
+}
+main .tourist-cont .tour-img img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sign {
+    border-radius: 30px;
+    position: absolute;
+    left: 450px;
+    top: 1350px;
+}
+
+.sign a  {
+    color: #16f78e;
+    text-decoration: none;
+    padding-left: 30px;
+    background: transparent;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border: 2px solid #16f78e;
+}
+.sign a :hover {
+    color: white;
+    background: #16f78e;
+
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 3rem 0 1rem;
+    position: absolute;
+    top: 6100px;
+    width: 100%;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 5px solid rgba(27, 180, 86, 0.1);
+}
