@@ -63,7 +63,7 @@ nav ul li a:hover {
     font-size: 30px;
 }
 .logo h3 span {
-    color: #34b679;
+    color: black;
 }
 
 /*.sign a {
@@ -185,7 +185,7 @@ main section .sect-cont .started-link a:hover {
     font-size: 50px;
 }
 #about-us .about-cont h2 span {
-    color: #16f78e;
+    color: black;
 }
 #about-us .about-cont {
     padding-left: 100px;
@@ -244,7 +244,7 @@ main section .sect-cont .started-link a:hover {
     padding-bottom: 40px;
 }
 .site-container h2 span {
-    color: #16f78e;
+    color: black;
 }
 .site-container .site-card-cont {
     display: flex;   
@@ -320,7 +320,7 @@ footer {
 }
 
 .social-icons a:hover {
-    color: #3498db;
+    color: blue;
 }
 
 .footer-bottom {
