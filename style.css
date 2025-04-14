@@ -15,7 +15,7 @@ body {
 /* Header and Navigation */
 header {
     background-color: white;
-    color: #140909;
+    color: black;
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #34b679;
+    color: black;
     font-weight: bold;
     border-radius: 3px;
 }
@@ -150,7 +150,7 @@ main section .sect-cont p::after {
     z-index: 200;
 }
 main section .sect-cont h1 span {
-    color: #16f78e;
+    color: black;
 }
 
 main section .sect-cont .started-link {
